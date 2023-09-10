@@ -12,6 +12,12 @@ public class SortLevelForSolving {
         if (i == array.length-1){
             return array;
         }
+        if (i == array.length - 2 && number > min){
+            buff = number;
+            array[i] = min;
+            array[array.length-1] = buff;
+            return array;
+        }
         for (int j = i +1; j < array.length; j++){
             if (min >array[j]){
                 min = array[j];
@@ -43,8 +49,8 @@ public class SortLevelForSolving {
 
     public static void main(String[] args) {
 
-        int[] array = {2, 3, 5, 4, 7, 6, 8, 9, 1};
-        int numberIndex = 3;
+        int[] array = {2, 3, 5, 4, 7, 7, 8, 9, 7};
+        int numberIndex = 4;
         System.out.println(Arrays.toString(SelectionSortStep(array, numberIndex)));
         int[] boolArray = {1, 1, 2, 1, 1, 1, 1, 1};
         System.out.println(BubbleSortStep(boolArray));

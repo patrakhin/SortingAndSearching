@@ -12,6 +12,12 @@ public class SortLevel {
         if (i == array.length-1){
             return array;
         }
+        if (i == array.length - 2 && number > min){
+            buff = number;
+            array[i] = min;
+            array[array.length-1] = buff;
+            return array;
+        }
         for (int j = i +1; j < array.length; j++){
             if (min >array[j]){
                 min = array[j];
