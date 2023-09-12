@@ -5,11 +5,7 @@ import java.util.Arrays;
 public class SortLevel {
     public static int[] InsertionSortStep (int[] array, int step, int i) {
         int different = array.length - i;
-        if ((step < 1 || step > (different - 1)) || (i < 0 || i >= array.length - i)) {
-            return array;
-        }
         int sizeBuffArray = 0;
-
         for (int a = 0; a < 1; a ++) {
             if ((different- a) % step == 0){
                 sizeBuffArray = (different - a) / step;
