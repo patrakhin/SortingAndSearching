@@ -14,7 +14,7 @@ public class SortLevelForSolving_002 {
             }
             int[] buffArray = new int[sizeBuffArray];
             int[] indexArray = new int[sizeBuffArray];
-            for (int j = a, k = 0; j < different; j +=step, k++){
+            for (int j = i, k = 0; j < different; j +=step, k++){
                 buffArray[k] = array[j];
                 indexArray[k] = j;
             }
@@ -30,7 +30,7 @@ public class SortLevelForSolving_002 {
 
     public static void main(String[] args) {
 
-        int[] array = {7,6,5,4,3,2,1};
+        int[] array = {7,6,5,4,3,2,1 };
         int step = 3;
         int i =0;
         System.out.println(Arrays.toString(InsertionSortStep(array,step, i)));

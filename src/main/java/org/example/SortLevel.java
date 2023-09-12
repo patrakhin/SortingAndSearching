@@ -14,7 +14,7 @@ public class SortLevel {
             }
             int[] buffArray = new int[sizeBuffArray];
             int[] indexArray = new int[sizeBuffArray];
-            for (int j = a, k = 0; j < different; j +=step, k++){
+            for (int j = i, k = 0; j < different; j +=step, k++){
                 buffArray[k] = array[j];
                 indexArray[k] = j;
             }
