@@ -8,20 +8,35 @@ public class SortLevelForSolving_002 {
         if ((step < 1 || step > (different - 1)) || (i < 0 || i >= array.length - i)) {
             return array;
         }
-        int buffer;
-        for (int j = 0; j < 1; j++){
-            buffer = array[i];
-            array[i] = array[i + step];
-            array[i + step] = buffer;
+        int sizeBuffArray = 0;
+
+        for (int a = 0; a < 1; a ++) {
+            if ((different- a) % step == 0){
+                sizeBuffArray = (different - a) / step;
+            }else{
+                sizeBuffArray = (different - a) / step + 1;
+            }
+            int[] buffArray = new int[sizeBuffArray];
+            int[] indexArray = new int[sizeBuffArray];
+            for (int j = a, k = 0; j < different; j +=step, k++){
+                buffArray[k] = array[j];
+                indexArray[k] = j;
+            }
+            Arrays.sort(buffArray);
+            for (int x = 0; x < buffArray.length; x++){
+                int insertIndex = indexArray[x];
+                int numberOfArray = buffArray[x];
+                array[insertIndex] = numberOfArray;
+            }
         }
         return array;
     }
 
     public static void main(String[] args) {
 
-        int[] array = {1,6,5,4,3,2,7};
+        int[] array = {7,6,5,4,3,2,1};
         int step = 3;
-        int i =1;
+        int i =0;
         System.out.println(Arrays.toString(InsertionSortStep(array,step, i)));
     }
 
