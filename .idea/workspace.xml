@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix 2 to SortL_002">
+    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix 3 to SortL_002">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SortLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SortLevel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_002.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +104,7 @@
       <workItem from="1694358550170" duration="6522000" />
       <workItem from="1694455503381" duration="617000" />
       <workItem from="1694457017851" duration="23000" />
-      <workItem from="1694536725487" duration="4875000" />
+      <workItem from="1694536725487" duration="6365000" />
     </task>
     <task id="LOCAL-00001" summary="added Solving SortLevel">
       <option name="closed" value="true" />
@@ -160,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694541725332</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added fix 3 to SortL_002">
+      <option name="closed" value="true" />
+      <created>1694543328209</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694543328209</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +185,8 @@
     <MESSAGE value="added README" />
     <MESSAGE value="added fix 1 to SortL_002" />
     <MESSAGE value="added fix 2 to SortL_002" />
-    <option name="LAST_COMMIT_MESSAGE" value="added fix 2 to SortL_002" />
+    <MESSAGE value="added fix 3 to SortL_002" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fix 3 to SortL_002" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
