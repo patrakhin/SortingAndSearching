@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Arrays;
 
-public class SortLevelForSolving {
+public class SortLevelForSolving_001 {
     public static int[] SelectionSortStep(int[] array, int i)
     {
         int number = array[i];
