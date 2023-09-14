@@ -5,10 +5,11 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class SortLevel {
+public class SortLevelForSolving_003 {
     public static int[] ShellSort (int[] array) {
         List<Integer> sequenceSort = KnuthSequence(array.length);
-        for (int step : sequenceSort) {
+        for (int stepIndex = 0; stepIndex < sequenceSort.size(); stepIndex++) {
+            int step = sequenceSort.get(stepIndex);
             for (int i = 0; i < step; i++) {
                 InsertionSortStep(array, step, i);
             }
@@ -48,5 +49,11 @@ public class SortLevel {
         }
         Collections.reverse(sequence);
         return sequence;
+    }
+
+    public static void main(String[] args) {
+
+        int[] array = {1, 6, 5, 4, 3, 2, 7};
+        System.out.println(Arrays.toString(ShellSort(array)));
     }
 }
