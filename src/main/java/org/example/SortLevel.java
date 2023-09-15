@@ -7,7 +7,7 @@ public class SortLevel {
     public static ArrayList<Integer> KnuthSequence(int array_size){
         int h = 1;
         ArrayList<Integer> step = new ArrayList<>();
-        while (h < array_size){
+        while (h < array_size || h == 1){
             step.add(h);
             h = 3 * h + 1;
         }
