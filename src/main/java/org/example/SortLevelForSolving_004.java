@@ -1,8 +1,8 @@
 package org.example;
 
-import java.util.*;
+import java.util.Arrays;
 
-public class SortLevel {
+public class SortLevelForSolving_004 {
     public static int ArrayChunk( int[] M ){
         int baseIndex = M.length/2;
         int N = M[baseIndex]; //0
@@ -39,5 +39,13 @@ public class SortLevel {
                 baseIndex = i1;
             }
         }
+    }
+
+    public static void main(String[] args) {
+
+        //int[] array = {7,5,6,4,3,1,2};
+        int[] array = {9};
+        System.out.println( ArrayChunk(array));
+        System.out.println(Arrays.toString(array));
     }
 }

@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix 2 to Shell Sort 150923">
+    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix 3 to Shell Sort 150923">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_004.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SortLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SortLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_003.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortLevelForSolving_003">
+  <component name="RunManager" selected="Application.SortLevelForSolving_004">
     <configuration name="SortLevelForSolving_001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.SortLevelForSolving_001" />
       <module name="SortingAndSearching" />
@@ -97,8 +98,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortLevelForSolving_004" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SortLevelForSolving_004" />
+      <module name="SortingAndSearching" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortLevelForSolving_004" />
         <item itemvalue="Application.SortLevelForSolving_003" />
         <item itemvalue="Application.SortLevelForSolving_002" />
         <item itemvalue="Application.SortLevelForSolving_001" />
@@ -120,7 +135,9 @@
       <workItem from="1694457017851" duration="23000" />
       <workItem from="1694536725487" duration="7935000" />
       <workItem from="1694719276886" duration="4485000" />
-      <workItem from="1694790677540" duration="2817000" />
+      <workItem from="1694790677540" duration="3491000" />
+      <workItem from="1694870953027" duration="57000" />
+      <workItem from="1695060670440" duration="3762000" />
     </task>
     <task id="LOCAL-00001" summary="added Solving SortLevel">
       <option name="closed" value="true" />
@@ -218,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694792576434</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added fix 3 to Shell Sort 150923">
+      <option name="closed" value="true" />
+      <created>1694796368663</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1694796368663</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +263,8 @@
     <MESSAGE value="added Solving to Shell Sort 232814092023" />
     <MESSAGE value="added fix 1 to Shell Sort 150923" />
     <MESSAGE value="added fix 2 to Shell Sort 150923" />
-    <option name="LAST_COMMIT_MESSAGE" value="added fix 2 to Shell Sort 150923" />
+    <MESSAGE value="added fix 3 to Shell Sort 150923" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fix 3 to Shell Sort 150923" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
