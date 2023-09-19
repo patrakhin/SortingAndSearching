@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class SortLevelForSolving_004 {
     public static int ArrayChunk( int[] M ){
         int baseIndex = M.length/2;
-        int N = M[baseIndex]; //0
+        int N =  M[baseIndex]; //0
         int i1 = 0;
         int i2 = M.length - 1; //1
         while (true) {
@@ -20,11 +20,6 @@ public class SortLevelForSolving_004 {
                 buffer = M[i1];
                 M[i1] = M[i2];
                 M[i2] = buffer;
-                if (i1 == baseIndex) {
-                    baseIndex = i2;
-                } else if (i2 == baseIndex) {
-                    baseIndex = i1;
-                }
             }
             if (i1 == i2 || (i1 == i2 - 1 && M[i1] < M[i2])) { //5
                 return baseIndex;
@@ -43,8 +38,9 @@ public class SortLevelForSolving_004 {
 
     public static void main(String[] args) {
 
-        //int[] array = {7,5,6,4,3,1,2};
-        int[] array = {9};
+        int[] array = {7,5,6,4,3,1,2};
+        //int[] array = {9};
+        //int[] array = {6,5,7};
         System.out.println( ArrayChunk(array));
         System.out.println(Arrays.toString(array));
     }
