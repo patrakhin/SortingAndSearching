@@ -6,7 +6,7 @@ public class SortLevelForSolving_004 {
     public static int ArrayChunk( int[] M ){
         int baseIndex = M.length/2;
         int N =  M[M.length/2]; //0
-        int finalIndex = 0;
+        int finalIndex = M.length/2;
         int i1 = 0;
         int i2 = M.length - 1; //1
         while (true) {

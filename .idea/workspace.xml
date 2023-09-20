@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix 2 ArrayChunk 200020092023">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix 3 ArrayChunk 200020092023">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_004.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_004.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +150,7 @@
       <workItem from="1694870953027" duration="57000" />
       <workItem from="1695060670440" duration="4947000" />
       <workItem from="1695141916500" duration="3785000" />
-      <workItem from="1695228477454" duration="3322000" />
+      <workItem from="1695228477454" duration="3677000" />
     </task>
     <task id="LOCAL-00001" summary="added Solving SortLevel">
       <option name="closed" value="true" />
@@ -281,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695229214523</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added fix 3 ArrayChunk 200020092023">
+      <option name="closed" value="true" />
+      <created>1695233406945</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1695233406945</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +312,8 @@
     <MESSAGE value="added ArrayChunk 230818092023" />
     <MESSAGE value="added fix 1 ArrayChunk 211219092023" />
     <MESSAGE value="added fix 2 ArrayChunk 200020092023" />
-    <option name="LAST_COMMIT_MESSAGE" value="added fix 2 ArrayChunk 200020092023" />
+    <MESSAGE value="added fix 3 ArrayChunk 200020092023" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fix 3 ArrayChunk 200020092023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
