@@ -20,6 +20,8 @@ public class SortLevelForSolving_004 {
                 buffer = M[i1];
                 M[i1] = M[i2];
                 M[i2] = buffer;
+                baseIndex = M.length/2;
+                N =  M[baseIndex]; //0
             }
             if (i1 == i2 || (i1 == i2 - 1 && M[i1] < M[i2])) { //5
                 return baseIndex;
@@ -41,6 +43,7 @@ public class SortLevelForSolving_004 {
         int[] array = {7,5,6,4,3,1,2};
         //int[] array = {9};
         //int[] array = {6,5,7};
+        //int[] array = {3,1,2};
         System.out.println( ArrayChunk(array));
         System.out.println(Arrays.toString(array));
     }

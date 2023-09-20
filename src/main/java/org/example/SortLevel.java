@@ -3,9 +3,9 @@ package org.example;
 import java.util.*;
 
 public class SortLevel {
-    public static int ArrayChunk( int[] M ){
-        int baseIndex = M.length/2;
-        int N =  M[baseIndex]; //0
+    public static int ArrayChunk( int[] M ) {
+        int baseIndex = M.length / 2;
+        int N = M[baseIndex]; //0
         int i1 = 0;
         int i2 = M.length - 1; //1
         while (true) {
@@ -20,6 +20,8 @@ public class SortLevel {
                 buffer = M[i1];
                 M[i1] = M[i2];
                 M[i2] = buffer;
+                baseIndex = M.length / 2;
+                N = M[baseIndex]; //0
             }
             if (i1 == i2 || (i1 == i2 - 1 && M[i1] < M[i2])) { //5
                 return baseIndex;

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added ArrayChunk 230818092023">
+    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix 1 ArrayChunk 211219092023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_004.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_004.java" afterDir="false" />
     </list>
@@ -150,7 +150,8 @@
       <workItem from="1694790677540" duration="3491000" />
       <workItem from="1694870953027" duration="57000" />
       <workItem from="1695060670440" duration="4947000" />
-      <workItem from="1695141916500" duration="3004000" />
+      <workItem from="1695141916500" duration="3785000" />
+      <workItem from="1695228477454" duration="416000" />
     </task>
     <task id="LOCAL-00001" summary="added Solving SortLevel">
       <option name="closed" value="true" />
@@ -264,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695067707462</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added fix 1 ArrayChunk 211219092023">
+      <option name="closed" value="true" />
+      <created>1695147140494</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1695147140495</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +295,8 @@
     <MESSAGE value="added fix 2 to Shell Sort 150923" />
     <MESSAGE value="added fix 3 to Shell Sort 150923" />
     <MESSAGE value="added ArrayChunk 230818092023" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ArrayChunk 230818092023" />
+    <MESSAGE value="added fix 1 ArrayChunk 211219092023" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fix 1 ArrayChunk 211219092023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -300,6 +310,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_003.java</url>
           <line>10</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_004.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
