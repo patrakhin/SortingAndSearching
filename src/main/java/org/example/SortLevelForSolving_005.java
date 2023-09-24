@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class SortLevelForSolving_005 {
-    private static void QuickSort(int[] array, int left, int right) {
+    public static void QuickSort(int[] array, int left, int right) {
         if (left != right) {
             int pivotIndex = ArrayChunk(array, left, right);//partition(array, left, right);
             QuickSort(array, left, pivotIndex - 1);
@@ -48,9 +48,9 @@ public class SortLevelForSolving_005 {
     }
 
     public static void main(String[] args) {
-        //int[] array1 = {7,5,6,4,3,1,2}; //index 3 [2, 1, 3, 4, 6, 5, 7]
+        int[] array = {7,5,6,4,3,1,2}; //index 3 [2, 1, 3, 4, 6, 5, 7]
         //int[] array = {9};
-        int[] array = {6,5,7}; //index 1
+        //int[] array = {6,5,7}; //index 1
         //int[] array = {3,1,2};
         QuickSort(array, 0, array.length - 1);
         System.out.println(Arrays.toString(array));

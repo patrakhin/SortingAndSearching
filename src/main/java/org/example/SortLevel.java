@@ -3,7 +3,7 @@ package org.example;
 import java.util.*;
 
 public class SortLevel {
-    private static void QuickSort(int[] array, int left, int right) {
+    public static void QuickSort(int[] array, int left, int right) {
         if (left != right) {
             int pivotIndex = ArrayChunk(array, left, right);
             QuickSort(array, left, pivotIndex - 1);

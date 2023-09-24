@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix 5 ArrayChunk 200020092023">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_005.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/README.md" afterDir="false" />
+    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added sol to QuickSort 181224092023">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SortLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SortLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_005.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_005.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +152,7 @@
       <workItem from="1695060670440" duration="4947000" />
       <workItem from="1695141916500" duration="3785000" />
       <workItem from="1695228477454" duration="6849000" />
-      <workItem from="1695554682935" duration="10143000" />
+      <workItem from="1695554682935" duration="11011000" />
     </task>
     <task id="LOCAL-00001" summary="added Solving SortLevel">
       <option name="closed" value="true" />
@@ -307,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695237863558</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added sol to QuickSort 181224092023">
+      <option name="closed" value="true" />
+      <created>1695568337018</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1695568337018</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +341,8 @@
     <MESSAGE value="added fix 3 ArrayChunk 200020092023" />
     <MESSAGE value="added fix 4 ArrayChunk 200020092023" />
     <MESSAGE value="added fix 5 ArrayChunk 200020092023" />
-    <option name="LAST_COMMIT_MESSAGE" value="added fix 5 ArrayChunk 200020092023" />
+    <MESSAGE value="added sol to QuickSort 181224092023" />
+    <option name="LAST_COMMIT_MESSAGE" value="added sol to QuickSort 181224092023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
