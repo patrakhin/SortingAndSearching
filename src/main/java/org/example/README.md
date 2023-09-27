@@ -252,3 +252,6 @@ QuickSort( array, N+1, right )
 Заголовок функции (псевдокод):
 
 void QuickSort( int[] array, int left, int right )
+
+Решение: SortLevelForSolving_005
+

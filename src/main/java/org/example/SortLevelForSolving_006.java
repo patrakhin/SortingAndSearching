@@ -1,11 +1,12 @@
 package org.example;
 
-import java.util.*;
+import java.util.Arrays;
 
-public class SortLevel {
+public class SortLevelForSolving_006 {
     public static void QuickSortTailOptimization(int[] array, int left, int right) {
         while (left < right) {
             int pivotIndex = ArrayChunk(array, left, right);
+            // Оптимизация: выбор той части массива, которая имеет меньший размер
             if (pivotIndex - left < right - pivotIndex) {
                 QuickSortTailOptimization(array, left, pivotIndex - 1);
                 left = pivotIndex + 1;
@@ -50,4 +51,14 @@ public class SortLevel {
             M[i2] = buffer2;
         }
     }
+
+    public static void main(String[] args) {
+        int[] array = {7,5,6,4,3,1,2}; //index 3 [2, 1, 3, 4, 6, 5, 7]
+        //int[] array = {9};
+        //int[] array = {6,5,7}; //index 1
+        //int[] array = {3,1,2};
+        QuickSortTailOptimization(array, 0, array.length - 1);
+        System.out.println(Arrays.toString(array));
+    }
 }
+

@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added sol to QuickSort 181224092023">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SortLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SortLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_005.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_005.java" afterDir="false" />
+    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix 1 to QuickSort 181224092023">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_006.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,22 +58,9 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortLevelForSolving_005">
-    <configuration name="SortLevelForSolving_002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SortLevelForSolving_002" />
-      <module name="SortingAndSearching" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortLevelForSolving_003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SortLevelForSolving_003" />
+  <component name="RunManager" selected="Application.SortLevelForSolving_006">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="SortingAndSearching" />
       <extension name="coverage">
         <pattern>
@@ -109,6 +98,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortLevelForSolving_006" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SortLevelForSolving_006" />
+      <module name="SortingAndSearching" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SortLevel_001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.SortLevel_001" />
       <module name="SortingAndSearching" />
@@ -124,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortLevelForSolving_006" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.SortLevelForSolving_005" />
         <item itemvalue="Application.SortLevelForSolving_004" />
         <item itemvalue="Application.SortLevel_001" />
-        <item itemvalue="Application.SortLevelForSolving_003" />
-        <item itemvalue="Application.SortLevelForSolving_002" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +154,10 @@
       <workItem from="1695060670440" duration="4947000" />
       <workItem from="1695141916500" duration="3785000" />
       <workItem from="1695228477454" duration="6849000" />
-      <workItem from="1695554682935" duration="11011000" />
+      <workItem from="1695554682935" duration="11710000" />
+      <workItem from="1695665564583" duration="83000" />
+      <workItem from="1695765192313" duration="1688000" />
+      <workItem from="1695840034317" duration="681000" />
     </task>
     <task id="LOCAL-00001" summary="added Solving SortLevel">
       <option name="closed" value="true" />
@@ -314,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695568337018</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="added fix 1 to QuickSort 181224092023">
+      <option name="closed" value="true" />
+      <created>1695572381296</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1695572381296</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +355,8 @@
     <MESSAGE value="added fix 4 ArrayChunk 200020092023" />
     <MESSAGE value="added fix 5 ArrayChunk 200020092023" />
     <MESSAGE value="added sol to QuickSort 181224092023" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sol to QuickSort 181224092023" />
+    <MESSAGE value="added fix 1 to QuickSort 181224092023" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fix 1 to QuickSort 181224092023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
