@@ -6,35 +6,51 @@ import java.util.Arrays;
 
 public class SortLevelForSolving_007 {
 
-    public static ArrayList<Integer> KthOrderStatisticsStep(int[] Array, int L, int R, int k ){
-        ArrayList<Integer> resultList = new ArrayList<>();
-        int N = (R + L) / 2;
-        if (N == k){
-            resultList.add(0,R);
-            resultList.add(0, L);
-            return resultList;
+    public static ArrayList<Integer> KthOrderStatisticsStep(int[] Array, int L, int R, int k) {
+        ArrayList<Integer> result = new ArrayList<>();
+
+        int pivotIndex = partition(Array, L, R);
+
+        if (pivotIndex == k) {
+            result.add(L);
+            result.add(R);
+            return result;
+        } else if (pivotIndex < k) {
+            return KthOrderStatisticsStep(Array, pivotIndex + 1, R, k);
+        } else {
+            return KthOrderStatisticsStep(Array, L, pivotIndex - 1, k);
         }
-        if (N < k){
-            L = N + 1;
-            resultList.add(0,R);
-            resultList.add(0, L);
-            return resultList;
+    }
+
+    public static int partition(int[] Array, int L, int R) {
+        int pivot = Array[(L + R) / 2];
+        while (L <= R) {
+            while (Array[L] < pivot) {
+                L++;
+            }
+            while (Array[R] > pivot) {
+                R--;
+            }
+            if (L <= R) {
+                // Swap Array[L] and Array[R]
+                int temp = Array[L];
+                Array[L] = Array[R];
+                Array[R] = temp;
+                L++;
+                R--;
+            }
         }
-        R = N - 1;
-        resultList.add(0,R);
-        resultList.add(0, L);
-        return resultList;
+        return L - 1;
     }
 
     public static void main(String[] args) {
-        int[] array = {7,5,6,4,3,1,2}; //index 3 [2, 1, 3, 4, 6, 5, 7]
-        int L = 0;
-        int R = 6;
-        int k = 2;
-        //int[] array = {9};
-        //int[] array = {6,5,7}; //index 1
-        //int[] array = {3,1,2};
-        //QuickSort(array, 0, array.length - 1);
-        System.out.println((KthOrderStatisticsStep(array, L, R, k)));
+        int[] Array = {3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5};
+        int k = 4; // Ищем 4-ю порядковую статистику
+
+        ArrayList<Integer> result = KthOrderStatisticsStep(Array, 0, Array.length - 1, k);
+        int newL = result.get(0);
+        int newR = result.get(1);
+
+        System.out.println("Новые границы L и R: " + newL + " " + newR);
     }
 }
