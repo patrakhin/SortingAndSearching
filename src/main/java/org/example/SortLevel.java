@@ -4,39 +4,58 @@ import java.util.*;
 
 public class SortLevel {
     public static ArrayList<Integer> KthOrderStatisticsStep(int[] Array, int L, int R, int k) {
-        ArrayList<Integer> result = new ArrayList<>();
-
-        int pivotIndex = partition(Array, L, R);
+        int pivotIndex = ArrayChunk(Array, L, R);
+        ArrayList<Integer> resultList = new ArrayList<>();
 
         if (pivotIndex == k) {
-            result.add(L);
-            result.add(R);
-            return result;
-        } else if (pivotIndex < k) {
-            return KthOrderStatisticsStep(Array, pivotIndex + 1, R, k);
-        } else {
-            return KthOrderStatisticsStep(Array, L, pivotIndex - 1, k);
+            resultList.add(pivotIndex);
+            resultList.add(pivotIndex);
+            return resultList;
         }
+        if (pivotIndex < k) {
+            resultList.add(pivotIndex + 1);
+            resultList.add(R);
+            return resultList;
+        }
+
+        resultList.add(L);
+        resultList.add(pivotIndex - 1);
+        return resultList;
+
     }
 
-    public static int partition(int[] Array, int L, int R) {
-        int pivot = Array[(L + R) / 2];
-        while (L <= R) {
-            while (Array[L] < pivot) {
-                L++;
+    public static int ArrayChunk(int[] M, int left, int right ) {
+        int baseIndex = (right + left) / 2;
+        int N = M[baseIndex]; //0
+        int i1 = left;
+        int i2 = right; //1
+        while (true) {
+            while (M[i1] < N) { //2
+                i1++;
             }
-            while (Array[R] > pivot) {
-                R--;
+            while (M[i2] > N) { //3
+                i2--;
             }
-            if (L <= R) {
-                // Swap Array[L] and Array[R]
-                int temp = Array[L];
-                Array[L] = Array[R];
-                Array[R] = temp;
-                L++;
-                R--;
+            if (i1 == i2 - 1 && M[i1] > M[i2]) { //4
+                int buffer = 0;
+                buffer = M[i1];
+                M[i1] = M[i2];
+                M[i2] = buffer;
+                ArrayChunk(M, left, right);
+                //0
             }
+            if (i1 == i2 || (i1 == i2 - 1 && M[i1] < M[i2])) { //5
+                return baseIndex;
+            }
+            if (i1 == baseIndex) {
+                baseIndex = i2;
+            } else if (i2 == baseIndex) {
+                baseIndex = i1;
+            }
+            int buffer2 = 0;
+            buffer2 = M[i1];
+            M[i1] = M[i2];
+            M[i2] = buffer2;
         }
-        return L - 1;
     }
 }
