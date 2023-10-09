@@ -3,59 +3,47 @@ package org.example;
 import java.util.*;
 
 public class SortLevel {
-    public static ArrayList<Integer> KthOrderStatisticsStep(int[] Array, int L, int R, int k) {
-        int pivotIndex = ArrayChunk(Array, L, R);
-        ArrayList<Integer> resultList = new ArrayList<>();
-
-        if (pivotIndex == k) {
-            resultList.add(pivotIndex);
-            resultList.add(pivotIndex);
-            return resultList;
-        }
-        if (pivotIndex < k) {
-            resultList.add(pivotIndex + 1);
-            resultList.add(R);
-            return resultList;
+    public static ArrayList<Integer> MergeSort(ArrayList<Integer> arr)  {
+        int size = arr.size();
+        if (size <= 1) {
+            return arr;
         }
 
-        resultList.add(L);
-        resultList.add(pivotIndex - 1);
-        return resultList;
+        int middle = size / 2;
+        ArrayList<Integer> left = new ArrayList<>(arr.subList(0, middle));
+        ArrayList<Integer> right = new ArrayList<>(arr.subList(middle, size));
 
+        left = MergeSort(left);
+        right = MergeSort(right);
+
+        return merge(left, right);
     }
 
-    public static int ArrayChunk(int[] M, int left, int right ) {
-        int baseIndex = (right + left) / 2;
-        int N = M[baseIndex]; //0
-        int i1 = left;
-        int i2 = right; //1
-        while (true) {
-            while (M[i1] < N) { //2
-                i1++;
+    private static ArrayList<Integer> merge(ArrayList<Integer> left, ArrayList<Integer> right) {
+        ArrayList<Integer> result = new ArrayList<>();
+        int leftIdx = 0;
+        int rightIdx = 0;
+
+        while (leftIdx < left.size() && rightIdx < right.size()) {
+            if (left.get(leftIdx) < right.get(rightIdx)) {
+                result.add(left.get(leftIdx));
+                leftIdx++;
+            } else {
+                result.add(right.get(rightIdx));
+                rightIdx++;
             }
-            while (M[i2] > N) { //3
-                i2--;
-            }
-            if (i1 == i2 - 1 && M[i1] > M[i2]) { //4
-                int buffer = 0;
-                buffer = M[i1];
-                M[i1] = M[i2];
-                M[i2] = buffer;
-                ArrayChunk(M, left, right);
-                //0
-            }
-            if (i1 == i2 || (i1 == i2 - 1 && M[i1] < M[i2])) { //5
-                return baseIndex;
-            }
-            if (i1 == baseIndex) {
-                baseIndex = i2;
-            } else if (i2 == baseIndex) {
-                baseIndex = i1;
-            }
-            int buffer2 = 0;
-            buffer2 = M[i1];
-            M[i1] = M[i2];
-            M[i2] = buffer2;
         }
+
+        while (leftIdx < left.size()) {
+            result.add(left.get(leftIdx));
+            leftIdx++;
+        }
+
+        while (rightIdx < right.size()) {
+            result.add(right.get(rightIdx));
+            rightIdx++;
+        }
+
+        return result;
     }
 }

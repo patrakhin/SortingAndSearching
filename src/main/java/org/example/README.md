@@ -394,3 +394,4 @@ return factorial(n - 1, n * a)
 Заголовок функции (псевдокод):
 
 list KthOrderStatisticsStep( int[] Array, int L, int R, int k )
+
