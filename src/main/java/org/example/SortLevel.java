@@ -98,10 +98,10 @@ public class SortLevel {
     }
 
     public static class HeapSort{
-        public SortLevelForSolving_009.Heap HeapObject = null;
+        public Heap HeapObject = null;
 
         public HeapSort(int[] array){
-            HeapObject = new SortLevelForSolving_009.Heap();
+            HeapObject = new Heap();
             HeapObject.MakeHeap(array, calculateDepth(array.length));
             for (int element : array) {
                 HeapObject.Add(element);
