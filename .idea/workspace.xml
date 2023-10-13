@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added ReadMe to MergeSort 164509102023">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_009.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix1 HeapSort 1455131023" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,7 +160,7 @@
       <workItem from="1696328669753" duration="3689000" />
       <workItem from="1696858496580" duration="2442000" />
       <workItem from="1696946537572" duration="92000" />
-      <workItem from="1697192560458" duration="3616000" />
+      <workItem from="1697192560458" duration="4849000" />
     </task>
     <task id="LOCAL-00001" summary="added Solving SortLevel">
       <option name="closed" value="true" />
@@ -373,7 +370,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696860681079</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="added sol HeapSort 1455131023">
+      <option name="closed" value="true" />
+      <created>1697197984028</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1697197984028</updated>
+    </task>
+    <task id="LOCAL-00028" summary="added fix1 HeapSort 1455131023">
+      <option name="closed" value="true" />
+      <created>1697200321182</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1697200321182</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,8 +394,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added fix Solving SortLevel" />
-    <MESSAGE value="added solving Insert Sort Step 120923" />
     <MESSAGE value="added solving Insert Sort Step 2034120923" />
     <MESSAGE value="added README" />
     <MESSAGE value="added fix 1 to SortL_002" />
@@ -406,7 +417,9 @@
     <MESSAGE value="added fix1 to KthOrderStatisticStep 211602102023" />
     <MESSAGE value="added sol to MergeSort 164509102023" />
     <MESSAGE value="added ReadMe to MergeSort 164509102023" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ReadMe to MergeSort 164509102023" />
+    <MESSAGE value="added sol HeapSort 1455131023" />
+    <MESSAGE value="added fix1 HeapSort 1455131023" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fix1 HeapSort 1455131023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -455,6 +468,46 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_009.java</url>
           <line>133</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_009.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_009.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_009.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_009.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_009.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_009.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_009.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_009.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

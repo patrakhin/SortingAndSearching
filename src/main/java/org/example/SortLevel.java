@@ -3,7 +3,7 @@ package org.example;
 import java.util.*;
 
 public class SortLevel {
-    public static class Heap
+    class Heap
     {
         public int [] HeapArray; // store non-negative key numbers
 
@@ -97,8 +97,8 @@ public class SortLevel {
         }
     }
 
-    public static class HeapSort{
-        public Heap HeapObject = null;
+    class HeapSort{
+        public Heap HeapObject;
 
         public HeapSort(int[] array){
             HeapObject = new Heap();
