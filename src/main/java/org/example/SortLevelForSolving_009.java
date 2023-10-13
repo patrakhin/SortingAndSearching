@@ -101,7 +101,7 @@ public class SortLevelForSolving_009 {
     }
 
     public static class HeapSort{
-        public Heap HeapObject = null;
+        public Heap HeapObject;
 
         public HeapSort(int[] array){
             HeapObject = new Heap();

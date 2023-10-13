@@ -3,11 +3,11 @@ package org.example;
 import java.util.*;
 
 public class SortLevel {
-    public static class Heap
+    private static class Heap
     {
         public int [] HeapArray;
 
-        public Heap() { HeapArray = null; }
+        private Heap() { HeapArray = null; }
 
         public void MakeHeap(int[] a, int depth)
         {
@@ -101,7 +101,6 @@ public class SortLevel {
         public Heap HeapObject;
 
         public HeapSort(int[] array){
-            HeapObject = new Heap();
             HeapObject.MakeHeap(array, calculateDepth(array.length));
             for (int element : array) {
                 HeapObject.Add(element);
@@ -126,4 +125,5 @@ public class SortLevel {
             return depth - 1;
         }
     }
+
 }
