@@ -1,8 +1,11 @@
 package org.example;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
 
-public class SortLevel {
+
+public class SortLevelForSolving_009 {
+
     public static class Heap
     {
         public int [] HeapArray; // store non-negative key numbers
@@ -98,10 +101,10 @@ public class SortLevel {
     }
 
     public static class HeapSort{
-        public SortLevelForSolving_009.Heap HeapObject = null;
+        public Heap HeapObject = null;
 
         public HeapSort(int[] array){
-            HeapObject = new SortLevelForSolving_009.Heap();
+            HeapObject = new Heap();
             HeapObject.MakeHeap(array, calculateDepth(array.length));
             for (int element : array) {
                 HeapObject.Add(element);
@@ -126,4 +129,18 @@ public class SortLevel {
             return depth - 1;
         }
     }
+
+    public static void main(String[] args) {
+        int[] arrayToSort = {12, 45, 23, 7, 56, 89, 34, 19, 3, 67};
+
+        System.out.println("Исходный массив: " + arrayToSort.toString());
+        HeapSort sorter = new HeapSort(arrayToSort);
+
+        int nextMax;
+        while ((nextMax = sorter.GetNextMax()) != -1) {
+            System.out.print(nextMax + " ");
+        }
+
+    }
 }
+
