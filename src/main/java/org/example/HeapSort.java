@@ -1,13 +1,41 @@
 package org.example;
 
-import java.util.*;
+import java.util.Arrays;
 
-public class SortLevel {
-    private static class Heap
-    {
-        public int [] HeapArray;
+public class HeapSort {
+    public Heap HeapObject;
 
-        private Heap() { HeapArray = null; }
+    public HeapSort(int[] array) {
+        HeapObject = new Heap();
+        HeapObject.MakeHeap(array, calculateDepth(array.length));
+        for (int element : array) {
+            HeapObject.Add(element);
+        }
+    }
+
+    public int GetNextMax() {
+        if (HeapObject.HeapArray == null || HeapObject.HeapArray[0] == -1) {
+            return -1;
+        }
+        return HeapObject.GetMax();
+    }
+
+    private int calculateDepth(int size) {
+        int depth = 0;
+        int nodes = 0;
+
+        while (nodes < size) {
+            nodes += Math.pow(2, depth);
+            depth++;
+        }
+
+        return depth - 1;
+    }
+
+    private class Heap {
+        public int [] HeapArray; // store non-negative key numbers
+
+        public Heap() { HeapArray = null; }
 
         public void MakeHeap(int[] a, int depth)
         {
@@ -94,35 +122,6 @@ public class SortLevel {
 
                 SiftDown(largest);
             }
-        }
-    }
-
-    public static class HeapSort{
-        public static Heap HeapObject;
-
-        public HeapSort(int[] array){
-            HeapObject.MakeHeap(array, calculateDepth(array.length));
-            for (int element : array) {
-                HeapObject.Add(element);
-            }
-        }
-        public static int GetNextMax() {
-            if (HeapObject.HeapArray == null || HeapObject.HeapArray[0] == -1) {
-                return -1;
-            }
-            return HeapObject.GetMax();
-        }
-
-        public static int calculateDepth(int size) {
-            int depth = 0;
-            int nodes = 0;
-
-            while (nodes < size) {
-                nodes += Math.pow(2, depth);
-                depth++;
-            }
-
-            return depth - 1;
         }
     }
 
