@@ -3,9 +3,9 @@ package org.example;
 import java.util.*;
 
 public class SortLevel {
-    class Heap
+    public static class Heap
     {
-        public int [] HeapArray; // store non-negative key numbers
+        public int [] HeapArray;
 
         public Heap() { HeapArray = null; }
 
@@ -97,7 +97,7 @@ public class SortLevel {
         }
     }
 
-    class HeapSort{
+    public static class HeapSort{
         public Heap HeapObject;
 
         public HeapSort(int[] array){
@@ -114,7 +114,7 @@ public class SortLevel {
             return HeapObject.GetMax();
         }
 
-        private int calculateDepth(int size) {
+        public int calculateDepth(int size) {
             int depth = 0;
             int nodes = 0;
 
