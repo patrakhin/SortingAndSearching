@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added new class HeapSort (Syntax error) 1727131023">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HeapSort_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HeapSort.java" afterDir="false" />
-    </list>
+    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix to GetNextMax 162515102023" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +162,7 @@
       <workItem from="1696946537572" duration="92000" />
       <workItem from="1697192560458" duration="11783000" />
       <workItem from="1697363335148" duration="5249000" />
-      <workItem from="1697373421582" duration="2459000" />
+      <workItem from="1697373421582" duration="3175000" />
     </task>
     <task id="LOCAL-00001" summary="added Solving SortLevel">
       <option name="closed" value="true" />
@@ -424,7 +420,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697207076656</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="added fix to GetNextMax 162515102023">
+      <option name="closed" value="true" />
+      <created>1697376197302</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1697376197302</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +436,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added fix 3 to SortL_002" />
     <MESSAGE value="added fix 4 to SortL_002" />
     <MESSAGE value="added Solving to Shell Sort 232814092023" />
     <MESSAGE value="added fix 1 to Shell Sort 150923" />
@@ -457,7 +460,8 @@
     <MESSAGE value="added fix3 HeapSort (Syntax error) 1548131023" />
     <MESSAGE value="added fix4 HeapSort (Syntax error) 1548131023" />
     <MESSAGE value="added new class HeapSort (Syntax error) 1727131023" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new class HeapSort (Syntax error) 1727131023" />
+    <MESSAGE value="added fix to GetNextMax 162515102023" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fix to GetNextMax 162515102023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
