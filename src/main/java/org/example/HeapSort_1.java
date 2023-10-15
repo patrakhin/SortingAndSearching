@@ -1,10 +1,10 @@
 package org.example;
 
-import java.util.Arrays;
+import java.util.*;
 
-public class HeapSort {
+public class HeapSort_1 {
     private class Heap {
-        public int[] HeapArray;
+        public int[] HeapArray; // Массив для хранения неотрицательных ключей
 
         public Heap() {
             HeapArray = null;
@@ -92,10 +92,10 @@ public class HeapSort {
         }
     }
 
-    public HeapSort.Heap HeapObject;
+    public Heap HeapObject;
 
-    public HeapSort(int[] array) {
-        HeapObject = new HeapSort.Heap();
+    public HeapSort_1(int[] array) {
+        HeapObject = new Heap();
         HeapObject.MakeHeap(array, calculateDepth(array.length));
     }
 
@@ -115,4 +115,14 @@ public class HeapSort {
         return depth - 1;
     }
 
+    public static void main(String[] args) {
+        int[] arrayToSort = {12, 45, 23, 7, 56, 89, 34, 19, 3, 67};
+
+        HeapSort_1 sorter = new HeapSort_1(arrayToSort);
+
+        int nextMax;
+        while ((nextMax = sorter.GetNextMax()) != -1) {
+            System.out.print(nextMax + " ");
+        }
+    }
 }
