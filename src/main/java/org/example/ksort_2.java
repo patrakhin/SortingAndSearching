@@ -48,12 +48,15 @@ public class ksort_2 {
         // Примеры использования
         sorter.add("a00");
         sorter.add("a01");
+        sorter.add("a99");
         sorter.add("b64");
         sorter.add("g99");
 
         System.out.println("Index of a00: " + sorter.index("a00")); // Должно вывести 0
         System.out.println("Index of a01: " + sorter.index("a01")); // Должно вывести 0
+        System.out.println("Index of a01: " + sorter.index("a99"));
         System.out.println("Index of g99: " + sorter.index("g99")); // Должно вывести 2
+        System.out.println("Index of b64: " + sorter.index("b64"));
         System.out.println("Index of d12: " + sorter.index("d12")); // Должно вывести -1 (не найдено)
 
         System.out.println("Adding a99: " + sorter.add("a99")); // Должно вернуть true

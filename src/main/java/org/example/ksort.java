@@ -13,7 +13,11 @@ public class ksort {
         if (!isValidFormat(s)){
             return -1;
         }
-        return Integer.parseInt(s.substring(1));
+        char letter = s.charAt(0);
+        int number = Integer.parseInt(s.substring(1, 3));
+        int letterValue = letter - 'a';
+
+        return letterValue * 100 + number;
     }
 
     public boolean add(String s) {

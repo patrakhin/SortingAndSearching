@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added sol in readme 165515102023">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ksort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ksort_2.java" afterDir="false" />
+    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix1 in ksort 172817102023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_009_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ksort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ksort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +166,7 @@
       <workItem from="1697192560458" duration="11783000" />
       <workItem from="1697363335148" duration="5249000" />
       <workItem from="1697373421582" duration="3575000" />
-      <workItem from="1697550513163" duration="2052000" />
+      <workItem from="1697550513163" duration="4102000" />
     </task>
     <task id="LOCAL-00001" summary="added Solving SortLevel">
       <option name="closed" value="true" />
@@ -442,7 +440,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697377966134</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="added sol in ksort 172817102023">
+      <option name="closed" value="true" />
+      <created>1697552943190</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1697552943190</updated>
+    </task>
+    <task id="LOCAL-00036" summary="added fix1 in ksort 172817102023">
+      <option name="closed" value="true" />
+      <created>1697553103597</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1697553103597</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,8 +464,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added Solving to Shell Sort 232814092023" />
-    <MESSAGE value="added fix 1 to Shell Sort 150923" />
     <MESSAGE value="added fix 2 to Shell Sort 150923" />
     <MESSAGE value="added fix 3 to Shell Sort 150923" />
     <MESSAGE value="added ArrayChunk 230818092023" />
@@ -475,7 +487,9 @@
     <MESSAGE value="added new class HeapSort (Syntax error) 1727131023" />
     <MESSAGE value="added fix to GetNextMax 162515102023" />
     <MESSAGE value="added sol in readme 165515102023" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sol in readme 165515102023" />
+    <MESSAGE value="added sol in ksort 172817102023" />
+    <MESSAGE value="added fix1 in ksort 172817102023" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fix1 in ksort 172817102023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -578,7 +592,7 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ksort.java</url>
           <line>15</line>
-          <option name="timeStamp" value="33" />
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
