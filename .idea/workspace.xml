@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix to GetNextMax 162515102023" />
+    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added sol in readme 165515102023">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ksort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ksort_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SortLevelForSolving_009_01.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +61,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HeapSort">
+  <component name="RunManager" selected="Application.ksort">
     <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.HeapSort" />
       <module name="SortingAndSearching" />
@@ -96,19 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortLevelForSolving_008" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SortLevelForSolving_008" />
-      <module name="SortingAndSearching" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SortLevelForSolving_009" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.SortLevelForSolving_009" />
       <module name="SortingAndSearching" />
@@ -122,13 +114,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ksort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ksort" />
+      <module name="SortingAndSearching" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ksort" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.HeapSort_1" />
         <item itemvalue="Application.SortLevel" />
         <item itemvalue="Application.SortLevelForSolving_009" />
-        <item itemvalue="Application.SortLevelForSolving_008" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +167,8 @@
       <workItem from="1696946537572" duration="92000" />
       <workItem from="1697192560458" duration="11783000" />
       <workItem from="1697363335148" duration="5249000" />
-      <workItem from="1697373421582" duration="3175000" />
+      <workItem from="1697373421582" duration="3575000" />
+      <workItem from="1697550513163" duration="2052000" />
     </task>
     <task id="LOCAL-00001" summary="added Solving SortLevel">
       <option name="closed" value="true" />
@@ -428,7 +434,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697376197302</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="added sol in readme 165515102023">
+      <option name="closed" value="true" />
+      <created>1697377966134</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1697377966134</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +450,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added fix 4 to SortL_002" />
     <MESSAGE value="added Solving to Shell Sort 232814092023" />
     <MESSAGE value="added fix 1 to Shell Sort 150923" />
     <MESSAGE value="added fix 2 to Shell Sort 150923" />
@@ -461,7 +474,8 @@
     <MESSAGE value="added fix4 HeapSort (Syntax error) 1548131023" />
     <MESSAGE value="added new class HeapSort (Syntax error) 1727131023" />
     <MESSAGE value="added fix to GetNextMax 162515102023" />
-    <option name="LAST_COMMIT_MESSAGE" value="added fix to GetNextMax 162515102023" />
+    <MESSAGE value="added sol in readme 165515102023" />
+    <option name="LAST_COMMIT_MESSAGE" value="added sol in readme 165515102023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -562,29 +576,9 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/HeapSort_1.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/HeapSort_1.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/HeapSort_1.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/HeapSort_1.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/HeapSort_1.java</url>
-          <line>118</line>
-          <option name="timeStamp" value="44" />
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ksort.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
