@@ -36,7 +36,7 @@ public class ksort {
         }
     }
 
-    public boolean isValidFormat(String s) {
+    private boolean isValidFormat(String s) {
         String pattern = "[a-h][0-9]{2}";
         return s.matches(pattern);
     }
