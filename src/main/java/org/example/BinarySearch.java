@@ -1,10 +1,10 @@
 package org.example;
 
 public class BinarySearch {
-    private int[] array;
+    public int[] array;
     public int Left;
     public int Right;
-    private int result;
+    public int result;
 
     public BinarySearch(int[] sortedArray) {
         array = sortedArray;
@@ -32,15 +32,10 @@ public class BinarySearch {
             Right = mid - 1;
         }
 
-
     }
 
     public int GetResult() {
-        this.Left = 0;
-        this.Right = array.length - 1;
-        int tempResult = result;
-        result = 0;
-        return tempResult;
+        return result;
     }
 
 }
