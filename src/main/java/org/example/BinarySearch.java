@@ -26,13 +26,19 @@ public class BinarySearch {
             Right = mid - 1;
         }
 
-        if (Left == Right || Left > Right) {
-            result = -1;
+        if (Left == Right || (Left != Right && (Left - Right == 1))) {
+            result = 1;
         }
     }
 
     public int GetResult() {
-        return result;
+        this.Left = 0;
+        this.Right = array.length - 1;
+        int tempResult = result;
+        result = 0;
+        return tempResult;
     }
+
 }
+
 

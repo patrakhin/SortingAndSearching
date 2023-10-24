@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added ksort in readme 172817102023">
+    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added sol BinarySearch 123924102023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Mainjava.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,20 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ksort">
+  <component name="RunManager" selected="Application.BinarySearch$Main">
+    <configuration name="BinarySearch$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.BinarySearch$Main" />
+      <module name="SortingAndSearching" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.HeapSort" />
       <module name="SortingAndSearching" />
@@ -98,19 +113,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortLevelForSolving_009" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SortLevelForSolving_009" />
-      <module name="SortingAndSearching" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ksort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ksort" />
       <module name="SortingAndSearching" />
@@ -126,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch$Main" />
         <item itemvalue="Application.ksort" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.HeapSort_1" />
         <item itemvalue="Application.SortLevel" />
-        <item itemvalue="Application.SortLevelForSolving_009" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +169,9 @@
       <workItem from="1697373421582" duration="3575000" />
       <workItem from="1697550513163" duration="4102000" />
       <workItem from="1697556470764" duration="325000" />
+      <workItem from="1698139629832" duration="2271000" />
+      <workItem from="1698148534535" duration="218000" />
+      <workItem from="1698148771032" duration="3425000" />
     </task>
     <task id="LOCAL-00001" summary="added Solving SortLevel">
       <option name="closed" value="true" />
@@ -464,7 +469,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697556731527</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="added sol BinarySearch 123924102023">
+      <option name="closed" value="true" />
+      <created>1698140221188</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1698140221188</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +485,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added fix 3 to Shell Sort 150923" />
     <MESSAGE value="added ArrayChunk 230818092023" />
     <MESSAGE value="added fix 1 ArrayChunk 211219092023" />
     <MESSAGE value="added fix 2 ArrayChunk 200020092023" />
@@ -497,7 +509,8 @@
     <MESSAGE value="added sol in ksort 172817102023" />
     <MESSAGE value="added fix1 in ksort 172817102023" />
     <MESSAGE value="added ksort in readme 172817102023" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ksort in readme 172817102023" />
+    <MESSAGE value="added sol BinarySearch 123924102023" />
+    <option name="LAST_COMMIT_MESSAGE" value="added sol BinarySearch 123924102023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -601,6 +614,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ksort.java</url>
           <line>15</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
