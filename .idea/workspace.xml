@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix1 in ksort 172817102023">
+    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added ksort in readme 172817102023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ksort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ksort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +166,7 @@
       <workItem from="1697363335148" duration="5249000" />
       <workItem from="1697373421582" duration="3575000" />
       <workItem from="1697550513163" duration="4102000" />
+      <workItem from="1697556470764" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="added Solving SortLevel">
       <option name="closed" value="true" />
@@ -456,7 +456,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697553103597</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="added ksort in readme 172817102023">
+      <option name="closed" value="true" />
+      <created>1697556731527</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1697556731527</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +472,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added fix 2 to Shell Sort 150923" />
     <MESSAGE value="added fix 3 to Shell Sort 150923" />
     <MESSAGE value="added ArrayChunk 230818092023" />
     <MESSAGE value="added fix 1 ArrayChunk 211219092023" />
@@ -489,7 +496,8 @@
     <MESSAGE value="added sol in readme 165515102023" />
     <MESSAGE value="added sol in ksort 172817102023" />
     <MESSAGE value="added fix1 in ksort 172817102023" />
-    <option name="LAST_COMMIT_MESSAGE" value="added fix1 in ksort 172817102023" />
+    <MESSAGE value="added ksort in readme 172817102023" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ksort in readme 172817102023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
