@@ -14,15 +14,16 @@ public class BinarySearch {
     }
 
     public void Step(int N) {
-        if (Left > Right || result != 0) return;
 
         int mid = (Left + Right) / 2;
 
         if (array[mid] == N) {
             result = 1;
-        } else if (array[mid] < N) {
+        }
+        if (N > array[mid]) {
             Left = mid + 1;
-        } else {
+        }
+        if (N < array[mid]){
             Right = mid - 1;
         }
 
