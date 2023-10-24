@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix1 BinarySearch 162524102023">
+    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix2 BinarySearch 162524102023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +171,7 @@
       <workItem from="1698148534535" duration="218000" />
       <workItem from="1698148771032" duration="4208000" />
       <workItem from="1698156569088" duration="143000" />
-      <workItem from="1698157555323" duration="58000" />
+      <workItem from="1698157555323" duration="877000" />
     </task>
     <task id="LOCAL-00001" summary="added Solving SortLevel">
       <option name="closed" value="true" />
@@ -486,7 +485,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698153739679</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="added fix2 BinarySearch 162524102023">
+      <option name="closed" value="true" />
+      <created>1698157818964</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1698157818964</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +501,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added fix 1 ArrayChunk 211219092023" />
     <MESSAGE value="added fix 2 ArrayChunk 200020092023" />
     <MESSAGE value="added fix 3 ArrayChunk 200020092023" />
     <MESSAGE value="added fix 4 ArrayChunk 200020092023" />
@@ -519,7 +525,8 @@
     <MESSAGE value="added ksort in readme 172817102023" />
     <MESSAGE value="added sol BinarySearch 123924102023" />
     <MESSAGE value="added fix1 BinarySearch 162524102023" />
-    <option name="LAST_COMMIT_MESSAGE" value="added fix1 BinarySearch 162524102023" />
+    <MESSAGE value="added fix2 BinarySearch 162524102023" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fix2 BinarySearch 162524102023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
