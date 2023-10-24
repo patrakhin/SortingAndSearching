@@ -16,7 +16,7 @@ public class BinarySearch {
     public void Step(int N) {
 
         int mid = (Left + Right) / 2;
-        if (Left == Right || (Left != Right && (Left - Right == 1))) {
+        if (Left == Right || (Left != Right && (Math.abs(Left - Right) == 1))) {
             result = 1;
             return;
         }
