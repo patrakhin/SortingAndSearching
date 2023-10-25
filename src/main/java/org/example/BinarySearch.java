@@ -44,24 +44,6 @@ public class BinarySearch {
         result = 0;
         return temp;
     }
-
-    public static class Main {
-        public static void main(String[] args) {
-            int[] sortedArray = {1, 3, 5, 7, 9, 11, 13, 15, 17, 19};
-            BinarySearch searcher = new BinarySearch(sortedArray);
-
-            searcher.Step(9);
-            System.out.println(searcher.GetResult()); // Выведет "1" (элемент найден)
-
-            searcher.Step(13);
-            System.out.println(searcher.GetResult()); // Выведет "0"
-
-            searcher.Step(8);
-            System.out.println(searcher.GetResult()); // Выведет "0"
-        }
-    }
-
-
 }
 
 
