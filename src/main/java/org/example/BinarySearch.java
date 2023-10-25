@@ -14,29 +14,53 @@ public class BinarySearch {
     }
 
     public void Step(int N) {
-        if (Left > Right || result != 0) return;
 
         int mid = (Left + Right) / 2;
 
         if (array[mid] == N) {
+            Left = 0;
+            Right = array.length - 1;
             result = 1;
             return;
-        } else if (N > array[mid]) {
+        }
+
+        if (N > array[mid]) {
             Left = mid + 1;
-        } else {
+        }
+        if (N < array[mid]){
             Right = mid - 1;
         }
 
-        if (Left == Right || Math.abs(Left - Right) == 1) {
-            result = 0;
+        if (Left == Right || (Left != Right && Math.abs(Left - Right) == 1)) {
+            Left = 0;
+            Right = array.length - 1;
+            result = -1;
         }
+
     }
 
     public int GetResult() {
-        int tempResult = result;
+        int temp = result;
         result = 0;
-        return tempResult;
+        return temp;
     }
+
+    public static class Main {
+        public static void main(String[] args) {
+            int[] sortedArray = {1, 3, 5, 7, 9, 11, 13, 15, 17, 19};
+            BinarySearch searcher = new BinarySearch(sortedArray);
+
+            searcher.Step(9);
+            System.out.println(searcher.GetResult()); // Выведет "1" (элемент найден)
+
+            searcher.Step(13);
+            System.out.println(searcher.GetResult()); // Выведет "0"
+
+            searcher.Step(8);
+            System.out.println(searcher.GetResult()); // Выведет "0"
+        }
+    }
+
 
 }
 
