@@ -42,11 +42,7 @@ public class BinarySearch {
     }
 
     public int GetResult() {
-        int temp = result;
-        this.Left = 0;
-        this.Right = array.length - 1;
-        this.result = 0;
-        return temp;
+        return result;
     }
 
 }
