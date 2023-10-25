@@ -45,11 +45,6 @@ public class BinarySearch {
 
     public int GetResult() {
         String tempResult = result;
-        if (!Objects.equals(result, "0")) {
-            Left = 0;
-            Right = array.length - 1;
-            result = "0";
-        }
         return Integer.parseInt(tempResult);
     }
 }
