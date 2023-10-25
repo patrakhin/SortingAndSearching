@@ -6,25 +6,21 @@ public class BinarySearch {
     private int[] array;
     public int Left;
     public int Right;
-    private String result;
+    private int result;
 
     public BinarySearch(int[] sortedArray) {
         array = sortedArray;
         Left = 0;
         Right = array.length - 1;
-        result = "0";
+        result = 0;
     }
 
     public void Step(int N) {
 
-        if (!Objects.equals(result, "0")) return;
-
         int mid = (Left + Right) / 2;
 
         if (array[mid] == N) {
-            Left = 0;
-            Right = array.length - 1;
-            result = "+1";
+            result = 1;
             return;
         }
 
@@ -35,18 +31,24 @@ public class BinarySearch {
             Right = mid - 1;
         }
 
-        if (Left == Right || (Left != Right && Math.abs(Left - Right) == 1)) {
-            /*Left = 0;
-            Right = array.length - 1;*/
-            result = "-1";
+        if (Left == Right && array[Right] == N) {
+            result = 1;
+            return;
+        }
+        if (Left == Right && array[Right] != N || (Left != Right && Math.abs(Left - Right) == 1)) {
+            result = -1;
         }
 
     }
 
     public int GetResult() {
-        String tempResult = result;
-        return Integer.parseInt(tempResult);
+        int temp = result;
+        this.Left = 0;
+        this.Right = array.length - 1;
+        this.result = 0;
+        return temp;
     }
+
 }
 
 
