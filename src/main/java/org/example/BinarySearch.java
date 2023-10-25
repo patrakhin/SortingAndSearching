@@ -31,7 +31,7 @@ public class BinarySearch {
         if (N > array[mid]) {
             Left = mid + 1;
         }
-        if (N < array[mid]){
+        if (N < array[mid]) {
             Right = mid - 1;
         }
 
@@ -43,14 +43,14 @@ public class BinarySearch {
 
     }
 
-    public String GetResult() {
+    public int GetResult() {
         String tempResult = result;
         if (!Objects.equals(result, "0")) {
             Left = 0;
             Right = array.length - 1;
             result = "0";
         }
-        return tempResult;
+        return Integer.parseInt(tempResult);
     }
 }
 

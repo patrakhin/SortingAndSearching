@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix9 BinarySearch 113625102023" />
+    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix10 BinarySearch 133125102023">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,7 +175,8 @@
       <workItem from="1698157555323" duration="1924000" />
       <workItem from="1698166330181" duration="3113000" />
       <workItem from="1698219629609" duration="1492000" />
-      <workItem from="1698222122897" duration="4553000" />
+      <workItem from="1698222122897" duration="5176000" />
+      <workItem from="1698232203783" duration="139000" />
     </task>
     <task id="LOCAL-00001" summary="added Solving SortLevel">
       <option name="closed" value="true" />
@@ -550,7 +554,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698227648470</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="added fix10 BinarySearch 133125102023">
+      <option name="closed" value="true" />
+      <created>1698229730409</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1698229730409</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,7 +570,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added sol to KthOrderStatisticStep 152402102023" />
     <MESSAGE value="added fix1 to KthOrderStatisticStep 211602102023" />
     <MESSAGE value="added sol to MergeSort 164509102023" />
     <MESSAGE value="added ReadMe to MergeSort 164509102023" />
@@ -583,7 +594,8 @@
     <MESSAGE value="added fix7 BinarySearch 113625102023" />
     <MESSAGE value="added fix8 BinarySearch 113625102023" />
     <MESSAGE value="added fix9 BinarySearch 113625102023" />
-    <option name="LAST_COMMIT_MESSAGE" value="added fix9 BinarySearch 113625102023" />
+    <MESSAGE value="added fix10 BinarySearch 133125102023" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fix10 BinarySearch 133125102023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -690,12 +702,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java</url>
-          <line>19</line>
+          <line>21</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java</url>
-          <line>44</line>
+          <line>46</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
