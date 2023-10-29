@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix2 SortLevel 172729102023">
+    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix3 SortLevel 183929102023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -178,14 +178,6 @@
       <workItem from="1698222122897" duration="5176000" />
       <workItem from="1698232203783" duration="139000" />
       <workItem from="1698232420640" duration="7810000" />
-    </task>
-    <task id="LOCAL-00008" summary="added fix 3 to SortL_002">
-      <option name="closed" value="true" />
-      <created>1694543328209</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1694543328209</updated>
     </task>
     <task id="LOCAL-00009" summary="added fix 4 to SortL_002">
       <option name="closed" value="true" />
@@ -571,7 +563,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698589678895</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="added fix3 SortLevel 183929102023">
+      <option name="closed" value="true" />
+      <created>1698593989707</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1698593989708</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,7 +579,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added new class HeapSort (Syntax error) 1727131023" />
     <MESSAGE value="added fix to GetNextMax 162515102023" />
     <MESSAGE value="added sol in readme 165515102023" />
     <MESSAGE value="added sol in ksort 172817102023" />
@@ -604,7 +603,8 @@
     <MESSAGE value="added rename GallopingSearch to SortLevel 163229102023" />
     <MESSAGE value="added fix1 SortLevel 165529102023" />
     <MESSAGE value="added fix2 SortLevel 172729102023" />
-    <option name="LAST_COMMIT_MESSAGE" value="added fix2 SortLevel 172729102023" />
+    <MESSAGE value="added fix3 SortLevel 183929102023" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fix3 SortLevel 183929102023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -720,9 +720,9 @@
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/BinarySearchjava.txt</url>
           <line>17</line>
-          <properties class="org.example.BinarySearch" method="Step">
+          <properties class="org.example.BinarySearch">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
