@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix3 SortLevel 183929102023">
+    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix4 SortLevel 193529102023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -178,14 +178,6 @@
       <workItem from="1698222122897" duration="5176000" />
       <workItem from="1698232203783" duration="139000" />
       <workItem from="1698232420640" duration="7810000" />
-    </task>
-    <task id="LOCAL-00009" summary="added fix 4 to SortL_002">
-      <option name="closed" value="true" />
-      <created>1694545183951</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1694545183951</updated>
     </task>
     <task id="LOCAL-00010" summary="added Solving to Shell Sort 232814092023">
       <option name="closed" value="true" />
@@ -571,7 +563,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698593989708</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="added fix4 SortLevel 193529102023">
+      <option name="closed" value="true" />
+      <created>1698597311942</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1698597311943</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,7 +579,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added fix to GetNextMax 162515102023" />
     <MESSAGE value="added sol in readme 165515102023" />
     <MESSAGE value="added sol in ksort 172817102023" />
     <MESSAGE value="added fix1 in ksort 172817102023" />
@@ -604,7 +603,8 @@
     <MESSAGE value="added fix1 SortLevel 165529102023" />
     <MESSAGE value="added fix2 SortLevel 172729102023" />
     <MESSAGE value="added fix3 SortLevel 183929102023" />
-    <option name="LAST_COMMIT_MESSAGE" value="added fix3 SortLevel 183929102023" />
+    <MESSAGE value="added fix4 SortLevel 193529102023" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fix4 SortLevel 193529102023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

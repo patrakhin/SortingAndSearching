@@ -37,11 +37,11 @@ public class SortLevel {
         return false;
     }
 
-   public static class BinarySearch {
-        public int[] array;
-        public int Left;
-        public int Right;
-        public int result;
+   private static class BinarySearch {
+        private final int[] array;
+        private int Left;
+        private int Right;
+        private int result;
 
         public BinarySearch(int[] sortedArray, int left, int right) {
             array = sortedArray;
