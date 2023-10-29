@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix14 BinarySearch 194825102023">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GallopingSearch.java" afterDir="false" />
+    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added sol GallopingSearch 160629102023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,14 +178,6 @@
       <workItem from="1698222122897" duration="5176000" />
       <workItem from="1698232203783" duration="139000" />
       <workItem from="1698232420640" duration="7810000" />
-    </task>
-    <task id="LOCAL-00004" summary="added solving Insert Sort Step 2034120923">
-      <option name="closed" value="true" />
-      <created>1694540062025</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1694540062025</updated>
     </task>
     <task id="LOCAL-00005" summary="added README">
       <option name="closed" value="true" />
@@ -573,7 +563,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698252358744</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="added sol GallopingSearch 160629102023">
+      <option name="closed" value="true" />
+      <created>1698584831835</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1698584831836</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,7 +579,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added fix1 HeapSort 1455131023" />
     <MESSAGE value="added fix2 HeapSort (Syntax error) 1548131023" />
     <MESSAGE value="added fix3 HeapSort (Syntax error) 1548131023" />
     <MESSAGE value="added fix4 HeapSort (Syntax error) 1548131023" />
@@ -606,7 +603,8 @@
     <MESSAGE value="added fix12 BinarySearch 142225102023" />
     <MESSAGE value="added fix13 BinarySearch 181525102023" />
     <MESSAGE value="added fix14 BinarySearch 194825102023" />
-    <option name="LAST_COMMIT_MESSAGE" value="added fix14 BinarySearch 194825102023" />
+    <MESSAGE value="added sol GallopingSearch 160629102023" />
+    <option name="LAST_COMMIT_MESSAGE" value="added sol GallopingSearch 160629102023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -720,11 +718,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/GallopingSearch.java</url>
           <line>35</line>
           <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/GallopingSearch.java</url>
-          <line>74</line>
-          <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java</url>

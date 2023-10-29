@@ -3,127 +3,68 @@ package org.example;
 import java.util.*;
 
 public class SortLevel {
-    private static class Heap
-    {
-        public int [] HeapArray;
+    static class BinarySearch {
+        private int[] array;
+        public int Left;
+        public int Right;
+        private int result;
 
-        private Heap() { HeapArray = null; }
+        public BinarySearch(int[] sortedArray, int left, int right) {
+            array = sortedArray;
+            Left = left;
+            Right = right;
+            result = 0;
+        }
 
-        public void MakeHeap(int[] a, int depth)
-        {
-            int heapSize = (int) Math.pow(2, depth + 1) - 1;
-            HeapArray = new int[heapSize];
-
-            Arrays.fill(HeapArray, -1);
-
-            for (int i = 0; i < a.length; i++) {
-                HeapArray[i] = a[i];
-                SiftUp(i);
+        public void Step(int N) {
+            int mid = (Left + Right) / 2;
+            if (array[mid] == N) {
+                result = 1;
+                return;
+            }
+            if (N > array[mid]) {
+                Left = mid + 1;
+            } else {
+                Right = mid - 1;
             }
         }
 
-        public int GetMax()
-        {
-            if (HeapArray == null || HeapArray[0] == -1) {
-                return -1;
-            }
-
-            int max = HeapArray[0];
-            HeapArray[0] = HeapArray[HeapArray.length - 1];
-            HeapArray[HeapArray.length - 1] = -1;
-
-            SiftDown(0);
-
-            return max;
+        public int GetResult() {
+            return result;
         }
+    }
 
-        public boolean Add(int key)
-        {
-            if (HeapArray == null) {
-                return false;
-            }
+    public static boolean GallopingSearch(int[] array, int target) {
+        int i = 1;
+        int currentIndex = (int) (Math.pow(2, i) - 2);
 
-            int i = HeapArray.length - 1;
-
-            while (i >= 0 && HeapArray[i] != -1) {
-                i--;
-            }
-
-            if (i < 0) {
-                return false;
-            }
-
-            HeapArray[i] = key;
-            SiftUp(i);
-
+        if (currentIndex < array.length && array[currentIndex] == target) {
             return true;
         }
 
-        private void SiftUp(int i)
-        {
-            int parent = (i - 1) / 2;
-
-            while (i > 0 && HeapArray[parent] < HeapArray[i]) {
-                int tmp = HeapArray[parent];
-                HeapArray[parent] = HeapArray[i];
-                HeapArray[i] = tmp;
-
-                i = parent;
-                parent = (i - 1) / 2;
-            }
+        while (currentIndex < array.length - 1 && array[currentIndex] < target) {
+            i++;
+            currentIndex = (int) (Math.pow(2, i) - 2);
         }
 
-        private void SiftDown(int i)
-        {
-            int leftChild = 2 * i + 1;
-            int rightChild = 2 * i + 2;
-            int largest = i;
+        if (currentIndex >= array.length - 1) {
+            currentIndex = array.length - 1;
+        }
 
-            if (leftChild < HeapArray.length && HeapArray[leftChild] > HeapArray[largest]) {
-                largest = leftChild;
-            }
+        if (array[currentIndex] == target) {
+            return true;
+        }
 
-            if (rightChild < HeapArray.length && HeapArray[rightChild] > HeapArray[largest]) {
-                largest = rightChild;
-            }
+        int lowerBound = ((int) (Math.pow(2, i - 1)) - 2) + 1;
+        int upperBound = currentIndex;
 
-            if (largest != i) {
-                int tmp = HeapArray[i];
-                HeapArray[i] = HeapArray[largest];
-                HeapArray[largest] = tmp;
-
-                SiftDown(largest);
+        GallopingSearch.BinarySearch binarySearch = new GallopingSearch.BinarySearch(array, lowerBound, upperBound);
+        while (binarySearch.Left <= binarySearch.Right) {
+            binarySearch.Step(target);
+            if (binarySearch.GetResult() == 1) {
+                return true;
             }
         }
+        return false;
     }
-
-    public static class HeapSort{
-        public static Heap HeapObject;
-
-        public HeapSort(int[] array){
-            HeapObject.MakeHeap(array, calculateDepth(array.length));
-            for (int element : array) {
-                HeapObject.Add(element);
-            }
-        }
-        public static int GetNextMax() {
-            if (HeapObject.HeapArray == null || HeapObject.HeapArray[0] == -1) {
-                return -1;
-            }
-            return HeapObject.GetMax();
-        }
-
-        public static int calculateDepth(int size) {
-            int depth = 0;
-            int nodes = 0;
-
-            while (nodes < size) {
-                nodes += Math.pow(2, depth);
-                depth++;
-            }
-
-            return depth - 1;
-        }
-    }
-
 }
