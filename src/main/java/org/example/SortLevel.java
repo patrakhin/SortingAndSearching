@@ -3,7 +3,7 @@ package org.example;
 import java.util.*;
 
 public class SortLevel {
-    static class BinarySearch {
+    public static class BinarySearch {
         private int[] array;
         public int Left;
         public int Right;
@@ -58,7 +58,7 @@ public class SortLevel {
         int lowerBound = ((int) (Math.pow(2, i - 1)) - 2) + 1;
         int upperBound = currentIndex;
 
-        GallopingSearch.BinarySearch binarySearch = new GallopingSearch.BinarySearch(array, lowerBound, upperBound);
+        BinarySearch binarySearch = new BinarySearch(array, lowerBound, upperBound);
         while (binarySearch.Left <= binarySearch.Right) {
             binarySearch.Step(target);
             if (binarySearch.GetResult() == 1) {

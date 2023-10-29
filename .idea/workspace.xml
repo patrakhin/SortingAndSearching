@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added sol GallopingSearch 160629102023">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added rename GallopingSearch to SortLevel 163229102023" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,14 +176,6 @@
       <workItem from="1698222122897" duration="5176000" />
       <workItem from="1698232203783" duration="139000" />
       <workItem from="1698232420640" duration="7810000" />
-    </task>
-    <task id="LOCAL-00005" summary="added README">
-      <option name="closed" value="true" />
-      <created>1694540284010</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1694540284010</updated>
     </task>
     <task id="LOCAL-00006" summary="added fix 1 to SortL_002">
       <option name="closed" value="true" />
@@ -571,7 +561,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698584831836</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="added rename GallopingSearch to SortLevel 163229102023">
+      <option name="closed" value="true" />
+      <created>1698586375417</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1698586375417</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,7 +577,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added fix2 HeapSort (Syntax error) 1548131023" />
     <MESSAGE value="added fix3 HeapSort (Syntax error) 1548131023" />
     <MESSAGE value="added fix4 HeapSort (Syntax error) 1548131023" />
     <MESSAGE value="added new class HeapSort (Syntax error) 1727131023" />
@@ -604,7 +601,8 @@
     <MESSAGE value="added fix13 BinarySearch 181525102023" />
     <MESSAGE value="added fix14 BinarySearch 194825102023" />
     <MESSAGE value="added sol GallopingSearch 160629102023" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sol GallopingSearch 160629102023" />
+    <MESSAGE value="added rename GallopingSearch to SortLevel 163229102023" />
+    <option name="LAST_COMMIT_MESSAGE" value="added rename GallopingSearch to SortLevel 163229102023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
