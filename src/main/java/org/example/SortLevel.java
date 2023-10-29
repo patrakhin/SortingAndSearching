@@ -3,36 +3,7 @@ package org.example;
 import java.util.*;
 
 public class SortLevel {
-    private static class BinarySearch {
-        private int[] array;
-        public int Left;
-        public int Right;
-        private int result;
 
-        public BinarySearch(int[] sortedArray, int left, int right) {
-            array = sortedArray;
-            Left = left;
-            Right = right;
-            result = 0;
-        }
-
-        public void Step(int N) {
-            int mid = (Left + Right) / 2;
-            if (array[mid] == N) {
-                result = 1;
-                return;
-            }
-            if (N > array[mid]) {
-                Left = mid + 1;
-            } else {
-                Right = mid - 1;
-            }
-        }
-
-        public int GetResult() {
-            return result;
-        }
-    }
 
     public static boolean GallopingSearch(int[] array, int target) {
         int i = 1;
@@ -65,5 +36,36 @@ public class SortLevel {
             }
         }
         return false;
+    }
+}
+
+class BinarySearch {
+    private int[] array;
+    public int Left;
+    public int Right;
+    private int result;
+
+    public BinarySearch(int[] sortedArray, int left, int right) {
+        array = sortedArray;
+        Left = left;
+        Right = right;
+        result = 0;
+    }
+
+    public void Step(int N) {
+        int mid = (Left + Right) / 2;
+        if (array[mid] == N) {
+            result = 1;
+            return;
+        }
+        if (N > array[mid]) {
+            Left = mid + 1;
+        } else {
+            Right = mid - 1;
+        }
+    }
+
+    public int GetResult() {
+        return result;
     }
 }
