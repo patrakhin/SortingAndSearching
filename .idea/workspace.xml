@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix4 SortLevel 193529102023">
+    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix5 SortLevel 211929102023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SortLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SortLevel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GallopingSearch">
+  <component name="RunManager" selected="Application.SortLevel">
     <configuration name="BinarySearch$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.BinarySearch$Main" />
       <module name="SortingAndSearching" />
@@ -99,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HeapSort_1" />
+    <configuration name="SortLevel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SortLevel" />
       <module name="SortingAndSearching" />
       <extension name="coverage">
         <pattern>
@@ -127,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortLevel" />
         <item itemvalue="Application.GallopingSearch" />
         <item itemvalue="Application.BinarySearch$Main" />
         <item itemvalue="Application.ksort" />
         <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.HeapSort_1" />
       </list>
     </recent_temporary>
   </component>
@@ -178,14 +179,7 @@
       <workItem from="1698222122897" duration="5176000" />
       <workItem from="1698232203783" duration="139000" />
       <workItem from="1698232420640" duration="7810000" />
-    </task>
-    <task id="LOCAL-00010" summary="added Solving to Shell Sort 232814092023">
-      <option name="closed" value="true" />
-      <created>1694723327512</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1694723327512</updated>
+      <workItem from="1698660655418" duration="1156000" />
     </task>
     <task id="LOCAL-00011" summary="added fix 1 to Shell Sort 150923">
       <option name="closed" value="true" />
@@ -571,7 +565,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698597311943</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="added fix5 SortLevel 211929102023">
+      <option name="closed" value="true" />
+      <created>1698603598731</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1698603598732</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,7 +581,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added sol in readme 165515102023" />
     <MESSAGE value="added sol in ksort 172817102023" />
     <MESSAGE value="added fix1 in ksort 172817102023" />
     <MESSAGE value="added ksort in readme 172817102023" />
@@ -604,7 +605,8 @@
     <MESSAGE value="added fix2 SortLevel 172729102023" />
     <MESSAGE value="added fix3 SortLevel 183929102023" />
     <MESSAGE value="added fix4 SortLevel 193529102023" />
-    <option name="LAST_COMMIT_MESSAGE" value="added fix4 SortLevel 193529102023" />
+    <MESSAGE value="added fix5 SortLevel 211929102023" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fix5 SortLevel 211929102023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -718,6 +720,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/GallopingSearch.java</url>
           <line>35</line>
           <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/SortLevel.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/SortLevel.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/SortLevel.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/BinarySearchjava.txt</url>

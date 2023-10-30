@@ -25,7 +25,7 @@ public class SortLevel {
             return true;
         }
 
-        int lowerBound = ((int) (Math.pow(2, i - 1)) - 2) + 1;
+        int lowerBound = ((int) (Math.pow(2, (i - 1))) - 2) + 1;
         int upperBound = currentIndex;
         BinarySearch binarySearch = new BinarySearch(array,lowerBound,upperBound);
         while (binarySearch.Left <= binarySearch.Right) {
@@ -50,7 +50,7 @@ public class SortLevel {
             result = 0;
         }
 
-        public void Step(int N) {
+       private void Step(int N) {
             int mid = (Left + Right) / 2;
             if (array[mid] == N) {
                 result = 1;
@@ -63,9 +63,10 @@ public class SortLevel {
             }
         }
 
-        public int GetResult() {
+       private int GetResult() {
             return result;
         }
     }
+
 }
 
