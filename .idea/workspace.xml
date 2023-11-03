@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added fix6 SortLevel 134330102023">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java" afterDir="false" />
+    <list default="true" id="5d8d7d19-6d30-4744-88e6-45913147deff" name="Changes" comment="added new sol Galloping and Binary 170701112023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -180,15 +179,7 @@
       <workItem from="1698232203783" duration="139000" />
       <workItem from="1698232420640" duration="7810000" />
       <workItem from="1698660655418" duration="2562000" />
-      <workItem from="1698846363379" duration="1091000" />
-    </task>
-    <task id="LOCAL-00012" summary="added fix 2 to Shell Sort 150923">
-      <option name="closed" value="true" />
-      <created>1694792576434</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1694792576434</updated>
+      <workItem from="1698846363379" duration="1942000" />
     </task>
     <task id="LOCAL-00013" summary="added fix 3 to Shell Sort 150923">
       <option name="closed" value="true" />
@@ -574,7 +565,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698662594633</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="added new sol Galloping and Binary 170701112023">
+      <option name="closed" value="true" />
+      <created>1698847679576</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1698847679577</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,7 +581,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added fix1 in ksort 172817102023" />
     <MESSAGE value="added ksort in readme 172817102023" />
     <MESSAGE value="added sol BinarySearch 123924102023" />
     <MESSAGE value="added fix1 BinarySearch 162524102023" />
@@ -607,7 +605,8 @@
     <MESSAGE value="added fix4 SortLevel 193529102023" />
     <MESSAGE value="added fix5 SortLevel 211929102023" />
     <MESSAGE value="added fix6 SortLevel 134330102023" />
-    <option name="LAST_COMMIT_MESSAGE" value="added fix6 SortLevel 134330102023" />
+    <MESSAGE value="added new sol Galloping and Binary 170701112023" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new sol Galloping and Binary 170701112023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -734,28 +733,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java</url>
-          <line>46</line>
+          <line>48</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java</url>
-          <line>42</line>
+          <line>44</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java</url>
-          <line>17</line>
+          <line>19</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java</url>
-          <line>9</line>
+          <line>11</line>
           <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java</url>
-          <line>82</line>
-          <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/BinarySearchjava.txt</url>

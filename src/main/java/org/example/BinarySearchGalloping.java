@@ -1,14 +1,12 @@
 package org.example;
 
-import java.util.*;
-
-public class BinarySearch {
+public class BinarySearchGalloping {
     private int[] array;
     public int Left;
     public int Right;
     private int result;
 
-    public BinarySearch(int[] sortedArray) {
+    public BinarySearchGalloping(int[] sortedArray) {
         array = sortedArray;
         Left = 0;
         Right = array.length - 1;
@@ -68,12 +66,12 @@ public class BinarySearch {
 
         int lowerBound = ((int) (Math.pow(2, (i - 1))) - 2) + 1;
         int upperBound = currentIndex;
-        BinarySearch binarySearch = new BinarySearch(array);
-        binarySearch.Left = lowerBound;
-        binarySearch.Right = upperBound;
-        while (binarySearch.Left <= binarySearch.Right) {
-            binarySearch.Step(target);
-            if (binarySearch.GetResult() == 1) {
+        BinarySearchGalloping binarySearchGalloping = new BinarySearchGalloping(array);
+        binarySearchGalloping.Left = lowerBound;
+        binarySearchGalloping.Right = upperBound;
+        while (binarySearchGalloping.Left <= binarySearchGalloping.Right) {
+            binarySearchGalloping.Step(target);
+            if (binarySearchGalloping.GetResult() == 1) {
                 return true;
             }
         }
